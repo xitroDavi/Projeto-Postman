@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "b83f477f-b805-4e7e-b56c-78d8ab31b296",
+		"name": "TestePHP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36218045"
+	},
+	"item": [
+		{
+			"name": "requestGET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/qts_pw0611/Controller/usuario.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"qts_pw0611",
+						"Controller",
+						"usuario.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "requestPOST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Eduardo\",\r\n    \"sobrenome\": \"Veloso\",\r\n    \"idade\": \"17\",\r\n    \"cpf\": \"123.456.789-55\",\r\n    \"rendaMensal\": \"1500.00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/qts_pw0611/Controller/usuario.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"qts_pw0611",
+						"Controller",
+						"usuario.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "requestPUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"nome\": \"Eduardo\",\r\n    \"sobrenome\": \"Veloso\",\r\n    \"idade\": \"17\",\r\n    \"cpf\": \"123.456.789-55\",\r\n    \"rendaMensal\": \"1500.00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/qts_pw0611/Controller/usuario.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"qts_pw0611",
+						"Controller",
+						"usuario.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "requestPATCH",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"campo\": \"nome\",\r\n    \"valor\": \"Eduardo veloso\"\r\n \r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/qts_pw0611/Controller/usuario.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"qts_pw0611",
+						"Controller",
+						"usuario.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "requestDELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/qts_pw0611/Controller/usuario.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"qts_pw0611",
+						"Controller",
+						"usuario.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
